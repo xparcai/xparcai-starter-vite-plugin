@@ -32,7 +32,7 @@ npm i ---plugin-name---
 
 ```js
 // vite.config.js
-import ---PluginName--- from '---plugin-name---/vite'
+import ---PluginName--- from '---plugin-name---'
 
 export default defineConfig({
   plugins: [---PluginName---({ /* options */ })],
