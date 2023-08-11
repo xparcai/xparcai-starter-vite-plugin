@@ -12,10 +12,10 @@ Clone this template
 
 ```bash
 vtr
-# select Unplugin
+# select VitePlugin
 
 # or
-# vtr vtrbo/starter-unplugin my-plugin
+# vtr vtrbo/starter-vite-plugin my-plugin
 ```
 
 Globally replace `---plugin-name---` with your plugin name.  
