@@ -1,1 +1,1 @@
-document.getElementById('app')!.innerHTML = '__VITE_PLUGIN__'
+document.getElementById('app')!.innerHTML = '__PLUGIN__'

@@ -1,10 +1,10 @@
 import { defineConfig } from 'vite'
 import Inspect from 'vite-plugin-inspect'
-import VitePlugin from '../src'
+import Plugin from '../src'
 
 export default defineConfig({
   plugins: [
     Inspect(),
-    VitePlugin(),
+    Plugin(),
   ],
 })

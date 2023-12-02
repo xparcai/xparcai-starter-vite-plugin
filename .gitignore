@@ -35,15 +35,17 @@ bower_components
 build/Release
 
 # Dependency directories
-~/
-node_modules/
-jspm_packages/
+~
+node_modules
+jspm_packages
 
 # TypeScript v1 declaration files
-typings/
+typings
 
 # Optional npm cache directory
 .npm
+*.lerna_backup
+*.vsix
 
 # Optional eslint cache
 .eslintcache
@@ -62,8 +64,9 @@ typings/
 
 # parcel-bundler cache (https://parceljs.org/)
 .cache
-chche
-temp
+# cache
+.temp
+# temp
 
 # next.js build output
 .next
@@ -71,10 +74,7 @@ temp
 # nuxt.js build output
 .nuxt
 
-# vuepress build output
-.vuepress/dist
-
-# Build output
+# Nuxt generate
 dist
 
 # Serverless directories
@@ -84,9 +84,8 @@ dist
 .idea
 .vscode
 
-# Svelte
-/.svelte-kit
+# history
+.history
 
 # generate
-**/components.d.ts
-types/auto-*.ts
+**/plugin-*.d.ts

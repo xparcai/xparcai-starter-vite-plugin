@@ -1,15 +1,15 @@
 import type { PluginOption } from 'vite'
 import type { Options } from './types'
 
-function createVitePlugin(options?: Options): PluginOption {
+function createPlugin(options?: Options): PluginOption {
   return {
-    name: '---plugin-name---',
+    name: '---name---',
     transform(code, id: string) {
       if (id.endsWith('main.ts'))
-        return code.replace('__VITE_PLUGIN__', `Hello Vite Plugin! ${options}`)
+        return code.replace('__PLUGIN__', `Hello Vite Plugin! ${options}`)
       return null
     },
   }
 }
 
-export default createVitePlugin
+export default createPlugin

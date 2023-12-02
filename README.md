@@ -1,44 +1,34 @@
-# ---plugin-name--- 
+# ---name---
 
-[![NPM version](https://img.shields.io/npm/v/---plugin-name---?color=a1b858&label=)](https://www.npmjs.com/package/---plugin-name---)
+[![NPM version](https://img.shields.io/npm/v/---name---?color=a1b858&label=)](https://www.npmjs.com/package/---name---)
 
----plugin-name--- for [vite](https://github.com/vitejs/vite).
+---name--- for [vite](https://github.com/vitejs/vite).
 
-## Template Usage
+# Usage
 
-> example use [@vtrbo/cli](https://github.com/vtrbo/cli)
-
-Clone this template
-
-```bash
-vtr
-# select VitePlugin
-
-# or
-# vtr vtrbo/starter-vite-plugin my-plugin
-```
-
-Globally replace `---plugin-name---` with your plugin name.  
-
-Globally replace `---PluginName---` with your plugin name (big camel case).  
-
-Then you can start developing your plugin.
+- Global search `xparcai` replaced with `github username`  
+- Global search `---name---` replaced with `plugin name`  
+- Global search `---Name---` replaced with `PluginName`(big camel case)  
 
 ## Install
 
 ```bash
-npm i ---plugin-name---
+npm i ---name---
 ```
 
 ```js
 // vite.config.js
-import ---PluginName--- from '---plugin-name---'
+import ---Name--- from '---name---'
 
 export default defineConfig({
-  plugins: [---PluginName---({ /* options */ })],
+  plugins: [
+    ---Name---({
+      /* options */ 
+    })
+  ],
 })
 ```
 
 ## License
 
-[MIT](./LICENSE) License © 2023 [Victor Bo](https://github.com/vtrbo)
+[MIT](./LICENSE) License © 2023 [xparcai](https://github.com/xparcai)
